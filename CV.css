@@ -1,0 +1,38 @@
+body{
+    background-image: url(img/bg.jpg);
+
+    color: #757575;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu';
+}
+a,span{
+    color: #757575;
+}
+#about{
+    border: 2px solid #757575;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 95px;
+}
+.container{
+    min-height: 150px;
+}
+#navbar{
+    min-height: auto;
+}
+hr{
+    border-top: 1.5px solid #757575;
+    width: 20%;
+    margin-inline-start: 0px;
+}
+.main-container{
+    max-height: 297mm;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
